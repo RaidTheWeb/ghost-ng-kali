@@ -17,7 +17,7 @@ And Finally Run:
     Changing Permissions...
     Done..
     root@kali:~# ls
-    Documents  ghost-ng  Public    Videos     Desktop
-    Downloads  Music     Pictures  Templates
+    Documents  ghost-ng  ghostlansc-ng  ghostlanscng-etc  ghostdos-ng  ghostdosng-etc
+    Downloads  Music     Pictures       Templates         Public       Videos          Desktop
     
     
