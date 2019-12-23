@@ -1,4 +1,4 @@
-# Ghost-NG
+# Ghost-NG Kali Realease 2019.4 And Later
 
 Developed by RaidTheWeb, Install with:
 
