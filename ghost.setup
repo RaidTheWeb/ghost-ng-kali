@@ -3,7 +3,7 @@
 # dynbox.sh - Yes/No box demo
 dialog --title "Setup" \
 --backtitle "Ghost-NG Setup Utility" \
---yesno "Do You Wish To Continue?" 7 60 ;
+--yesno "Do You Wish To Continue?" 8 60 ;
 
 # Get exit status
 # 0 means user hit [yes] button.
@@ -12,12 +12,12 @@ dialog --title "Setup" \
 response=$?
 case $response in
    0 ) 
-      dialog --title 'Setup' --backtitle "Ghost-NG Setup Utility" --msgbox 'Ghost-NG Will Now Be Setup.' 5 20 ;
+      dialog --title 'Setup' --backtitle "Ghost-NG Setup Utility" --msgbox 'Ghost-NG Will Now Be Setup.' 5 50 ;
       sleep 2
       dialog --backtitle "Ghost-NG Setup Utility" --infobox "Please Wait..." 10 30 ; sleep 4
       # mv /Kali-rolling-ghost-ng/ghost-ng.sh /ghost-ng
       # chmod 755 ghost-ng
-      dialog --title "" --backtitle "Ghost-NG Setup Utility" --msgbox "Setup Complete, Run With ./ghost-ng" 5 20 ;
+      dialog --title "" --backtitle "Ghost-NG Setup Utility" --msgbox "Setup Complete, Run With ./ghost-ng" 5 50 ;
       ;;
    1 ) 
       echo "Process Cancled."
