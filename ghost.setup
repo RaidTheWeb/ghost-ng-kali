@@ -14,8 +14,8 @@ case $response in
    0) dialog --title 'Setup' --backtitle "Ghost-NG Setup Utility" --msgbox 'Ghost-NG Will Now Be Setup.' 5 20 ;
       sleep 2
       dialog --backtitle "Ghost-NG Setup Utility" --infobox "Please Wait..." 10 30 ; sleep 4
-      mv /Kali-rolling-ghost-ng/ghost-ng.sh /ghost-ng
-      chmod 755 ghost-ng
+      # mv /Kali-rolling-ghost-ng/ghost-ng.sh /ghost-ng
+      # chmod 755 ghost-ng
       dialog --title "" --backtitle "Ghost-NG Setup Utility" --msgbox "Setup Complete, Run With ./ghost-ng" 5 20 ;
    1) echo "Process Cancled.";;
    255) echo "[ESC] key pressed, Cancelled.";;
