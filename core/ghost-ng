@@ -1,0 +1,28 @@
+#! /bin/bash
+
+cmd=(dialog --backtitle "Ghost-NG" --keep-tite --menu "Select One To Run:" 22 76 16)
+
+options=(1 "GhostLANSC-NG"
+         2 "GhostDOS-NG"
+         3 "GhostLis-NG"
+         4 "GhostFTPCK-NG")
+
+choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
+
+for choice in $choices
+do
+    case $choice in
+        1)
+            echo "First Option"
+            ;;
+        2)
+            echo "Second Option"
+            ;;
+        3)
+            echo "Third Option"
+            ;;
+        4)
+            echo "Fourth Option"
+            ;;
+    esac
+done
