@@ -15,7 +15,7 @@ case $response in
       dialog --title 'Setup' --backtitle "Ghost-NG Setup Utility" --msgbox 'Ghost-NG Will Now Be Setup.' 5 50 ;
       sleep 2
       dialog --backtitle "Ghost-NG Setup Utility" --infobox "Please Wait..." 10 30 ; sleep 4
-      mv /Kali-rolling-ghost-ng/ghost-ng /ghost-ng
+      mv /ghost-ng-kali/core/ghost-ng /ghost-ng
       chmod 755 ghost-ng
       dialog --title "" --backtitle "Ghost-NG Setup Utility" --msgbox "Setup Complete, Run With ./ghost-ng" 5 50 ;
       ;;
